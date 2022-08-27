@@ -1623,8 +1623,8 @@ Fe:Label("---------------------------------------")
 
 
 Fe:Button("Neptunan V -F-", function()
-lib:Notification("Notification", "Loaded, please do not move while the net bypass is loading!", "Okay")
-
+lib:Notification("Notification", "Loaded, Please Follow instructions", "Okay")
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Jason20902/NEPTUNIAN-V-FIX/main/NEP-V-FIX'),true))()
 end)
 
 Fe:Label("---------------------------------------")
